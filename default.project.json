@@ -1,0 +1,7 @@
+{
+	"name": "BulkSave",
+	"emitLegacyScripts": false,
+	"tree": {
+		"$path": "Source"
+	}
+}
