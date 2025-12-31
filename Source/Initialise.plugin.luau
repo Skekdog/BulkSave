@@ -6,7 +6,7 @@ Toolbar.OnClick = function()
 
 	for _, v in allSelected do
 		Selection:Set({v})
-		plugin:PromptSaveSelection(v.Name)
+		plugin:PromptSaveSelectionAsync(v.Name)
 	end
 
 	Selection:Set(allSelected)
