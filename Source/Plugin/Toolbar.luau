@@ -5,7 +5,7 @@ local plugin = GetPlugin
 local module = {}
 
 local toolbar = plugin:CreateToolbar("Bulk Save")
-local button = toolbar:CreateButton("Save", "Invidividually saves selected Instances", "rbxassetid://77969969793460")
+local button = toolbar:CreateButton("Save", "Individually saves selected Instances", "rbxassetid://77969969793460")
 button.ClickableWhenViewportHidden = true
 
 module.Toolbar = toolbar
